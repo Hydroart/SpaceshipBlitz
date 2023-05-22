@@ -1,0 +1,364 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1684778316529673, "dur":1159, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684778316530838, "dur":1551, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1684778316532405, "dur":17, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1684778316532422, "dur":375, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1684778316532827, "dur":554, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684778316533381, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684778316717849, "dur":420, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684778316718269, "dur":24, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684778316718293, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684778316718298, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684778316718306, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684778316718307, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684778316718313, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684778316718315, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684778316718322, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684778316718323, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684778316718328, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684778316718330, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684778316718334, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684778316718336, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684778316718341, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684778316718342, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684778316718346, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684778316718348, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684778316718353, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684778316718354, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684778316718358, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684778316718360, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684778316718364, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684778316718366, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684778316718370, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684778316718387, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684778316718420, "dur":1358, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1684778316533252, "dur":154, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684778316533406, "dur":4566, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684778316537986, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1684778316538170, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684778316538300, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1684778316538436, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684778316538507, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684778316538641, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684778316538796, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684778316538914, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684778316539016, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684778316539107, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684778316539210, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684778316539317, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684778316539421, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684778316539513, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684778316539611, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684778316539711, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684778316539853, "dur":177878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684778316717732, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684778316717806, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1684778316717806, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684778316533443, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684778316533443, "dur":4536, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684778316537986, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1684778316538138, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684778316538273, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1684778316538353, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684778316538444, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684778316538610, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684778316538675, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684778316538813, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684778316538951, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684778316539059, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684778316539155, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684778316539241, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684778316539349, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684778316539434, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684778316539536, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684778316539711, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684778316539833, "dur":72680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684778316612514, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684778316612594, "dur":105270, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684778316533245, "dur":154, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684778316533400, "dur":4570, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684778316537983, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1684778316538117, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684778316538197, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1684778316538312, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684778316538436, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684778316538533, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684778316538648, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684778316538796, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684778316538899, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684778316538997, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684778316539097, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684778316539190, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684778316539277, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684778316539374, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684778316539449, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684778316539526, "dur":180, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684778316539707, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684778316539822, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684778316539933, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684778316540016, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684778316540105, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684778316540175, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684778316540221, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684778316540282, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684778316540356, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684778316540408, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684778316540443, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684778316540494, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684778316540568, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1684778316540651, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684778316555984, "dur":22898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1684778316578914, "dur":138945, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684778316533235, "dur":156, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684778316533394, "dur":4571, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684778316537985, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1684778316537991, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684778316538100, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1684778316538102, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684778316538168, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1684778316538294, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684778316538407, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1684778316538499, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684778316538613, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684778316538695, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684778316538814, "dur":118807, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684778316657622, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684778316657665, "dur":60184, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684778316533260, "dur":154, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684778316533415, "dur":4560, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684778316537985, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1684778316538150, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684778316538268, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1684778316538370, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684778316538501, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684778316538623, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684778316538733, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684778316538849, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684778316538964, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684778316539090, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684778316539207, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684778316539295, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684778316539386, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684778316539480, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684778316539569, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684778316539722, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684778316539832, "dur":86331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684778316626164, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684778316626209, "dur":91671, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684778316533317, "dur":115, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684778316533432, "dur":4534, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684778316537984, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1684778316538164, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684778316538299, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684778316538425, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684778316538492, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684778316538648, "dur":198, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684778316538847, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684778316538958, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684778316539082, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684778316539171, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684778316539249, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684778316539357, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684778316539441, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684778316539518, "dur":179, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684778316539698, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684778316539810, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684778316539930, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684778316540007, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684778316540110, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684778316540192, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684778316540248, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684778316540295, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684778316540362, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684778316540428, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684778316540462, "dur":105733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684778316646202, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684778316646268, "dur":681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684778316646972, "dur":70896, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684778316533307, "dur":116, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684778316533424, "dur":4544, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684778316537983, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1684778316538144, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684778316538273, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1684778316538352, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684778316538494, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684778316538630, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684778316538755, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684778316538856, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684778316538964, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684778316539086, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684778316539207, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684778316539326, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684778316539418, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684778316539499, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684778316539601, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684778316539709, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684778316539841, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684778316539967, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684778316540080, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684778316540211, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684778316540288, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684778316540363, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684778316540450, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684778316540509, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684778316540568, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1684778316540646, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684778316541710, "dur":1800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1684778316543558, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1684778316543608, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684778316543615, "dur":5640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1684778316549300, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1684778316549345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684778316549355, "dur":3393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1684778316552785, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1684778316552830, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684778316552836, "dur":2120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1684778316554990, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1684778316555105, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684778316555145, "dur":162722, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684778316533359, "dur":80, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684778316533440, "dur":4538, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684778316537986, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1684778316538155, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684778316538272, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1684778316538370, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684778316538496, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684778316538572, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684778316538667, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684778316538810, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684778316538943, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684778316539055, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684778316539149, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684778316539241, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684778316539344, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684778316539431, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684778316539517, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684778316539685, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684778316539746, "dur":46470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684778316586217, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684778316586284, "dur":131577, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684778316533398, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684778316533399, "dur":4568, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684778316537985, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1684778316538164, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684778316538289, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684778316538440, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684778316538517, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684778316538644, "dur":156, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684778316538801, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684778316538922, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684778316539029, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684778316539123, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684778316539214, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684778316539334, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684778316539431, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684778316539531, "dur":170, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684778316539702, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684778316539810, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684778316539930, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684778316540008, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684778316540092, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684778316540180, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684778316540234, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684778316540282, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684778316540355, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684778316540437, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684778316540497, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":9, "ts":1684778316540578, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684778316541086, "dur":2687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":9, "ts":1684778316543817, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":9, "ts":1684778316543871, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684778316543878, "dur":5394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":9, "ts":1684778316549311, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/resources.assets" }}
+,{ "pid":12345, "tid":9, "ts":1684778316549376, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684778316549382, "dur":3584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/resources.assets" }}
+,{ "pid":12345, "tid":9, "ts":1684778316553004, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":9, "ts":1684778316553052, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684778316553059, "dur":3700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":9, "ts":1684778316556796, "dur":161051, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684778316533486, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684778316533487, "dur":4493, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684778316537984, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1684778316538172, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684778316538307, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz.exe" }}
+,{ "pid":12345, "tid":10, "ts":1684778316538438, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684778316538510, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684778316538645, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684778316538790, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684778316538915, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684778316539016, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684778316539126, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684778316539220, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684778316539335, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684778316539429, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684778316539519, "dur":173, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684778316539693, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684778316539758, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684778316539875, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684778316539973, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684778316540057, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684778316540130, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684778316540191, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684778316540249, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684778316540301, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684778316540372, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684778316540440, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684778316540493, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684778316540540, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":10, "ts":1684778316540599, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684778316541250, "dur":7596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":10, "ts":1684778316548902, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":10, "ts":1684778316549057, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684778316549108, "dur":1886, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":10, "ts":1684778316550994, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684778316551050, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/level1" }}
+,{ "pid":12345, "tid":10, "ts":1684778316551094, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684778316551100, "dur":3442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/level1" }}
+,{ "pid":12345, "tid":10, "ts":1684778316554578, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1684778316554619, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684778316554624, "dur":2439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1684778316557104, "dur":160741, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684778316533532, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684778316533532, "dur":4452, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684778316537984, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1684778316538165, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684778316538288, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684778316538421, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684778316538487, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684778316538561, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684778316538665, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684778316538805, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684778316538932, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684778316539045, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684778316539133, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684778316539242, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684778316539384, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684778316539482, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684778316539580, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684778316539712, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684778316539843, "dur":73389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684778316613232, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684778316613272, "dur":104594, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684778316533559, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684778316533559, "dur":4414, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684778316537985, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1684778316538143, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684778316538238, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1684778316538316, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684778316538437, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684778316538564, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684778316538661, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684778316538843, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684778316538954, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684778316539068, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684778316539169, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684778316539256, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684778316539378, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684778316539481, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684778316539570, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684778316539716, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684778316539857, "dur":79506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship Blitz_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684778316619363, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684778316619416, "dur":98454, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684778316721056, "dur":1248, "ph":"X", "name": "ProfilerWriteOutput" }
+,
