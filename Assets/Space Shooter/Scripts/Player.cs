@@ -11,6 +11,8 @@ public class Player : MonoBehaviour
 {
     public int health;
     public int numOfHearts;
+    public AudioClip damageSound;
+    public AudioClip explosionSound;
 
     public GameObject destructionFX;
 
@@ -56,14 +58,16 @@ public class Player : MonoBehaviour
         Instantiate(destructionFX, transform.position, Quaternion.identity);
         health -= damage;
         if(health <= 0) Destruction();
+        else SFXManager.instance.PlaySoundFXClip(damageSound, transform, 0.15f);
     }    
 
     //'Player's' destruction procedure
     void Destruction()
     {
+        SFXManager.instance.PlaySoundFXClip(explosionSound, transform, 1f);
+        Update();
         Instantiate(destructionFX, transform.position, Quaternion.identity); //generating destruction visual effect and destroying the 'Player' object
-        Destroy(gameObject);
-
+        Destroy(gameObject);  
         GameOverScreen.Setup(0);
     }
 

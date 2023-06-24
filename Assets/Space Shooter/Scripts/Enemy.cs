@@ -15,7 +15,6 @@ public class Enemy : MonoBehaviour {
     public static event Action<int> OnScoreUpdate;
     public int points;
     public int dropChance;
-    public AudioSource explosion;
 
     [Tooltip("Enemy's projectile prefab")]
     public GameObject Projectile;
@@ -23,6 +22,10 @@ public class Enemy : MonoBehaviour {
     [Tooltip("VFX prefab generating after destruction")]
     public GameObject destructionVFX;
     public GameObject hitEffect;
+
+    public AudioClip fireSound;
+    public AudioClip hitSound;
+    public AudioClip deathSound;
     
     [HideInInspector] public int shotChance; //probability of 'Enemy's' shooting during tha path
     [HideInInspector] public float shotTimeMin, shotTimeMax; //max and min time for shooting from the beginning of the path
@@ -38,7 +41,8 @@ public class Enemy : MonoBehaviour {
     {
         if (UnityEngine.Random.value < (float)shotChance / 100)                             //if random value less than shot probability, making a shot
         {                         
-            Instantiate(Projectile,  gameObject.transform.position, Quaternion.identity);             
+            Instantiate(Projectile,  gameObject.transform.position, Quaternion.identity);   
+            SFXManager.instance.PlaySoundFXClip(fireSound, transform, 0.8f);          
         }
     }
 
@@ -50,9 +54,12 @@ public class Enemy : MonoBehaviour {
         {
             Destruction();
             rn = UnityEngine.Random.Range(0, 0);
+            SFXManager.instance.PlaySoundFXClip(deathSound, transform, 1f);
         }
-        else
+        else{
+            SFXManager.instance.PlaySoundFXClip(hitSound, transform, 0.5f);
             Instantiate(hitEffect,transform.position,Quaternion.identity,transform);
+        }
     }    
 
      public GameObject drop;//power up drop
@@ -75,7 +82,6 @@ public class Enemy : MonoBehaviour {
                     Instantiate(drop1, transform.position, drop1.transform.rotation);
                 }
             }
-            explosion.Play();
         }
      }
 
@@ -93,7 +99,7 @@ public class Enemy : MonoBehaviour {
 
     //method of destroying the 'Enemy'
     void Destruction()                           
-    {        
+    {
         Instantiate(destructionVFX, transform.position, Quaternion.identity); 
         Destroy(gameObject);
     }

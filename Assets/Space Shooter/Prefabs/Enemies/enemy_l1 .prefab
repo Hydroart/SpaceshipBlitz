@@ -53,11 +53,13 @@ MonoBehaviour:
   rn: 0
   points: 5
   dropChance: 10
-  explosion: {fileID: 0}
   Projectile: {fileID: 1728936453619090, guid: 9610b32634c0355409b4b5991571a66b, type: 3}
   destructionVFX: {fileID: 1280240331523082, guid: 45ae5851ef2832044bba82850372d67b,
     type: 3}
   hitEffect: {fileID: 1256001557233130, guid: 2dd0bdb7830e6644da169b32252dca96, type: 3}
+  fireSound: {fileID: 8300000, guid: 9e8e867ab1144364bb54679a4bbb7a00, type: 3}
+  hitSound: {fileID: 8300000, guid: db21d71b690e3b94e8d5d53d85aa220e, type: 3}
+  deathSound: {fileID: 8300000, guid: feffb9391ac8bde49b9b2596bb49c01d, type: 3}
   shotChance: 10
   shotTimeMin: 1
   shotTimeMax: 3

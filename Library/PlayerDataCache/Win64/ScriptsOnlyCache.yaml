@@ -8,6 +8,7 @@ ScriptsOnlyBuild:
     - Enemy
     - FollowThePath
     - GameOverScreen
+    - HighScore
     - LevelController
     - MainMenu
     - MusicPlayer
@@ -44,6 +45,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.Text
   serializedClasses:
     Assembly-CSharp:
     - Borders
@@ -87,6 +89,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.AnimationTriggers
     - UnityEngine.UI.Button/ButtonClickedEvent
     - UnityEngine.UI.ColorBlock
+    - UnityEngine.UI.FontData
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
     - UnityEngine.UI.Navigation
     - UnityEngine.UI.SpriteState
@@ -152,6 +155,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1596}
     - Class: 114
+      Script: {instanceID: 1750}
+    - Class: 114
       Script: {instanceID: 1974}
     - Class: 114
       Script: {instanceID: 1984}
@@ -180,6 +185,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5474}
     - Class: 114
+      Script: {instanceID: 5628}
+    - Class: 114
       Script: {instanceID: 5706}
     - Class: 114
       Script: {instanceID: 5950}
@@ -192,11 +199,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7214}
     - Class: 114
-      Script: {instanceID: 7866}
+      Script: {instanceID: 7864}
     - Class: 114
-      Script: {instanceID: 7874}
+      Script: {instanceID: 7872}
     - Class: 114
-      Script: {instanceID: 8282}
+      Script: {instanceID: 8280}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -339,6 +346,12 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
+      Hash: 261e5f1a68ab70d9af31984cf3ecd1d7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HighScore
+  - hash:
+      serializedVersion: 2
       Hash: 8a874a8207a7664bdf44e61f28717254
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
@@ -373,12 +386,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseExitMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: TMPro.Examples
-    className: SimpleScript
   - hash:
       serializedVersion: 2
       Hash: 7612977bf7e2ca41a36e1e70dec149c2
@@ -729,7 +736,7 @@ ScriptsOnlyBuild:
     className: ActivationTrack
   - hash:
       serializedVersion: 2
-      Hash: ad17962087665a0d8734fa2105bc0c90
+      Hash: 594ac97d44fd9c963fb36ff949c1be7a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Projectile
@@ -837,7 +844,7 @@ ScriptsOnlyBuild:
     className: TMP_Settings
   - hash:
       serializedVersion: 2
-      Hash: e4adc165b62a80bb5dbdf85f6ef9c257
+      Hash: fe9b60f6af2cb8c00f1f99fee6f80ca0
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: LevelController
@@ -1329,7 +1336,7 @@ ScriptsOnlyBuild:
     className: UnityOnScrollRectValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 26d03afeca5b24d8961827608856213a
+      Hash: 96350b3783bbb3795fd37ac6342b595b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Player
@@ -1419,12 +1426,6 @@ ScriptsOnlyBuild:
     className: MultiplayerEventSystem
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: NewBehaviourScript
-  - hash:
-      serializedVersion: 2
       Hash: 0d8afee454ad247ad41b0e651ba19543
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1509,7 +1510,7 @@ ScriptsOnlyBuild:
     className: SignalEmitter
   - hash:
       serializedVersion: 2
-      Hash: 3713284392311ac646f31d28c1574a67
+      Hash: abe8f2d0288590bf9aae19525182f7ea
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Enemy
@@ -1553,5 +1554,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Space Shooter/Scenes/Menu.unity
   - Assets/Space Shooter/Scenes/Demo_Scene.unity
-  playerPath: C:/Users/water/OneDrive/Stalinis kompiuteris/Spaceship Blitz/Spaceship
-    Blitz.exe
+  playerPath: C:/Users/water/OneDrive/Stalinis kompiuteris/New folder/Spaceship Blitz.exe

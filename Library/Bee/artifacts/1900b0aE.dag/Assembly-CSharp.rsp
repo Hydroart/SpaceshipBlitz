@@ -364,6 +364,7 @@
 "Assets/Space Shooter/Scripts/PoolingController.cs"
 "Assets/Space Shooter/Scripts/Projectile.cs"
 "Assets/Space Shooter/Scripts/RepeatingBackground.cs"
+"Assets/Space Shooter/Scripts/SFXManager.cs"
 "Assets/Space Shooter/Scripts/VisualEffect.cs"
 "Assets/Space Shooter/Scripts/Wave.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"

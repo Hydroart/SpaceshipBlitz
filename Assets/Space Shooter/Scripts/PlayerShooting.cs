@@ -16,6 +16,8 @@ public class PlayerShooting : MonoBehaviour {
     [Tooltip("shooting frequency. the higher the more frequent")]
     public float fireRate;
 
+    public AudioClip shootingSound;
+
     [Tooltip("projectile prefab")]
     public GameObject projectileObject;
 
@@ -50,13 +52,12 @@ public class PlayerShooting : MonoBehaviour {
         {
             if (Time.time > nextFire)
             {
-                MakeAShot();                                                         
+                SFXManager.instance.PlaySoundFXClip(shootingSound, transform, 0.5f);
+                MakeAShot();                         
                 nextFire = Time.time + 1 / fireRate;
             }
         }
     }
-
-
 
 
 
