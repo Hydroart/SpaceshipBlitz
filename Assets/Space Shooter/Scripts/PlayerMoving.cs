@@ -36,7 +36,10 @@ public class PlayerMoving : MonoBehaviour {
 
     private void Update()
     {
-        rb.MovePosition(rb.position + moveInput * playerSpeed * Time.fixedDeltaTime);
+        Vector2 newPosition = rb.position + moveInput * playerSpeed * Time.fixedDeltaTime;
+        newPosition.x = Mathf.Clamp(newPosition.x, borders.minX, borders.maxX);
+        newPosition.y = Mathf.Clamp(newPosition.y, borders.minY, borders.maxY);
+        rb.MovePosition(newPosition);
     }
 
 
