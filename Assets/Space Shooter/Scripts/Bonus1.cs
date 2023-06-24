@@ -7,8 +7,10 @@ public class Bonus1 : MonoBehaviour {
     {
         if (collision.tag == "Player") 
         {
-            Player.instance.health++;
             Destroy(gameObject);
+            if(Player.instance.health <= 4){
+                Player.instance.health++;
+            }
         }
     }
 }

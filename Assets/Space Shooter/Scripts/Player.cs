@@ -9,13 +9,40 @@ using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
-    public float health;
+    public int health;
+    public int numOfHearts;
 
     public GameObject destructionFX;
 
     public static Player instance; 
 
     public GameOverScreen GameOverScreen;
+
+    public Image[] hearts;
+    public Sprite fullHeart;
+    public Sprite emptyHeart;
+
+    void Update() {
+
+        if(health > numOfHearts){
+            numOfHearts = health;
+        }
+
+        for(int i = 0; i < hearts.Length; i++)
+        {
+            if(i < health){
+                hearts[i].sprite = fullHeart;
+            } else{
+                hearts[i].sprite = emptyHeart;
+            }
+
+            if(i < numOfHearts){
+                hearts[i].enabled = true;
+            } else{
+                hearts[i].enabled = false;
+            }
+        }
+    }
 
     private void Awake()
     {
@@ -27,8 +54,8 @@ public class Player : MonoBehaviour
     public void GetDamage(int damage)   
     {
         Instantiate(destructionFX, transform.position, Quaternion.identity);
-        health--;
-        if(health == 0) Destruction();
+        health -= damage;
+        if(health <= 0) Destruction();
     }    
 
     //'Player's' destruction procedure
