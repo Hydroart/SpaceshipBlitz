@@ -15,7 +15,6 @@ public class Enemy : MonoBehaviour {
     public static event Action<int> OnScoreUpdate;
     public int points;
     public int dropChance;
-    public int test2;
 
 
     [Tooltip("Enemy's projectile prefab")]
