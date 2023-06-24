@@ -2655,7 +2655,7 @@ MonoBehaviour:
   health: 5
   numOfHearts: 5
   damageSound: {fileID: 8300000, guid: 0a6f9aa331dcfdf43807dfa85be595f4, type: 3}
-  explosionSound: {fileID: 8300000, guid: a9fd05f4f22225542a6672d60db15990, type: 3}
+  explosionSound: {fileID: 8300000, guid: 186217be66623154dad06e551a931f31, type: 3}
   destructionFX: {fileID: 1587261729604890, guid: 600ec83cba1cec448bf41a6607229741,
     type: 3}
   GameOverScreen: {fileID: 615116791}
